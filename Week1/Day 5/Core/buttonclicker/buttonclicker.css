@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-style: italic;
+}
+.navbar{
+    width: 70%;
+    height: 50px;
+    border: 2px gray solid;
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(143, 142, 142);
+    margin-left: 150px;
+    align-items: center;
+    margin-bottom: 30px;
+}
+.navbar input  {
+    width: 400px;
+    height: 30px;
+}
+.navbar button{
+    width: 80px;
+    height: 30px;
+    background-color: #2b77e3;
+    color: white;
+    margin-top: 20px;
+    box-shadow: black 5px 5px;
+    
+
+}
+.leftup{
+    width: 700px;
+    height: 200px;
+    margin-left: 150px;
+    border: 2px rgb(0, 0, 0) solid;
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+    margin-bottom: 30px;
+}
+.right{
+    width: 200px;
+    height: 180px;
+    border:2px black solid;
+    position:relative ;
+    left: 920px;
+    bottom: 466px;
+    
+    
+}
+
+.leftupleft h1,p, button{margin-bottom: 25px;
+    display: flex;
+    justify-content: center;
+
+}
+.leftupright{
+    
+    margin-left: 200px;
+}
+button{
+    width: 120px;
+    height: 30px;
+    background-color: yellow;
+    box-shadow: black 5px 5px;
+    display: flex;
+    align-items: center;
+}
+.right h2,button{ margin-bottom: 20px;
+    margin-left: 25px;
+    margin-top: 20px;
+
+}
+.right button{
+    background-color: green;
+    display: flex;
+    align-items: center;
+}
