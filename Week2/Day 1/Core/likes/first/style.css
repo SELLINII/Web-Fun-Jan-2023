@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    width: 35%;
+    height: 180px;
+    border: 5px black solid;
+    margin-left: 350px;
+    margin-top: 150px;
+}
+.up{
+    display: flex;
+
+    justify-content: space-around;
+    margin-top: 30px;
+    align-items: center;
+    padding-bottom: 30px;
+
+}
+.btn{
+    width: 100px;
+    height: 35px;
+    background-color: #ffd966;
+    box-shadow: 5px 5px;
+}
+.down{display: flex;
+    justify-content: center;
+    font-size: 18px;
+}
+.up p{
+    font-size: 19px;
+}
+
+
